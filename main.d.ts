@@ -5,8 +5,16 @@
 
 export class AssertionError implements Error {
   constructor(message: string, props?: any, ssf?: Function);
-  name: string;
-  message: string;
-  showDiff: boolean;
-  stack: string;
+  public name: string;
+  public message: string;
+  public showDiff: boolean;
+  public stack: string;
+
+  /**
+   * Allow errors to be converted to JSON for static transfer.
+   *
+   * @param {Boolean} include stack (default: `true`)
+   * @return {Object} object that can be `JSON.stringify`
+   */
+  public toJSON(stack: boolean): Object;
 }
