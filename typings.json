@@ -1,6 +1,7 @@
 {
   "name": "assertion-error",
   "main": "main.d.ts",
+  "version": "1.0.0",
   "devDependencies": {
     "assertion-error": "file:main.d.ts",
     "target": "file:main.d.ts"
