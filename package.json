@@ -8,7 +8,7 @@
   "dependencies": {},
   "devDependencies": {
     "tslint": "^3.3.0",
-    "typescript": "^2.0.6"
+    "typescript": "^2.0.9"
   },
   "repository": {
     "type": "git",
